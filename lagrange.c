@@ -14,8 +14,9 @@ int main() {
     scanf(" %d", &n);
     pt tabela[n]; // Tabela de pontos
 
-    printf("Insira os pontos da tabela (x, y): ");
+    printf("Insira os pontos da tabela (x y):\n");
     for (int i = 0; i < n; i++) {
+        printf("x%d y%d: ", i, i);
         scanf(" %lf %lf", &tabela[i].x, &tabela[i].y);
     }
 
